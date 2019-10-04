@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public Animator myAnim;
     public static PlayerController instance;
+    //name of the entance/exit pair
+    public string areaTransitionName;
     
     // Start is called before the first frame update
     void Start()
