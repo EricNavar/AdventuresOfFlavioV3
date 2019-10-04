@@ -9,12 +9,20 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        target = PlayerController.instance.transform;
+        if (PlayerController.instance)
+            target = PlayerController.instance.transform;
+        else
+            Debug.Log("player instance has not yet been created.");
     }
 
     // LateUpdate is called once per frame
     void LateUpdate()
     {
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
+    }
+
+    public void setTarget(Transform t)
+    {
+        target = t;
     }
 }
