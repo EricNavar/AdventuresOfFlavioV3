@@ -1,0 +1,546 @@
+Aagron
+	characterName : "Aagron";
+	boss : false;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new HeadBash);
+	moveSet.Add(new Scratch);
+	holdItem : new Horn;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+BabyDragon
+	characterName : "Baby dragon"; 
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Bite);
+	moveSet.Add(new );
+
+	holdItem : new DragonScale; 
+		expToGive : 10;
+		weakness : "";
+		resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+	base_stats : {"energy": 60; "sp": 60; "power": 30; "defence": 55; "speed": 25; "accuracy": 100
+Bear
+	characterName : "Bear";
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Rest);
+	moveSet.Add(new Slash);
+
+	holdItem : new HoneyNutCheerios;
+	expToGive : 10;
+	weakness : null;
+	resistance : null;
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+	sprite : Resources.Load("Assets/Art/slime_red") as SpriteRenderer; 
+Bee
+	characterName : "Bee";
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Bite);
+	moveSet.Add(new Slash);
+
+	holdItem : new MagicWings;
+	expToGive : 10;
+	weakness : null;
+	resistance : null;
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+	base_stats : {"energy": 60; "sp": 60; "power": 30; "defence": 55; "speed": 25; "accuracy": 100
+Captain
+
+		characterName : "Captain"; 
+		boss : false;
+		description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Slash);
+	moveSet.Add(new Slash);
+
+	holdItem : new DragonScale; 
+		expToGive : 10;
+		weakness : "";
+		resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+	base_stats : {"energy": 60; "sp": 60; "power": 30; "defence": 55; "speed": 25; "accuracy": 100
+CastleGuards
+
+	characterName : "Castle guards";
+	boss : false;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Stab);
+	
+	holdItem : new LeatherScrap;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+	
+Dragon
+	characterName : "Seaborne dragon";
+	boss : true;
+	description : "This dragon has the form of giant eel. It can hide its wings along its body and swim through the ocean.";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new IceBeam);
+	moveSet.Add(new Flamethrower);
+	moveSet.Add(new TailWhip);
+	moveSet.Add(new WingSlash);
+
+	holdItem : new LifeGem; fix. also charcoal
+	expToGive : 500;
+	weakness : "volt";
+	resistance : "fire";
+	stats.CreateNewStats(70, 60, 30, 55, 25);
+Enemy
+	battleMng : FindObjectOfType<BattleManager>;
+	
+EnemyStats
+"energy": 60; "sp": 60; "power": 30; "defence": 55; "speed": 25; "accuracy": 100
+Captain
+	characterName : "Captain"; 
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Slash);
+	moveSet.Add(new Slash);
+
+	holdItem : new DragonScale; 
+		expToGive : 10;
+		weakness : "";
+		resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+	base_stats : {"energy": 60; "sp": 60; "power": 30; "defence": 55; "speed": 25; "accuracy": 100
+CastleGuards
+	characterName : "Castle guards";
+	boss : false;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Stab);
+	
+	holdItem : new LeatherScrap;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+Dragon
+	characterName : "Seaborne dragon";
+	boss : true;
+	description : "This dragon has the form of giant eel. It can hide its wings along its body and swim through the ocean.";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new IceBeam);
+	moveSet.Add(new Flamethrower);
+	moveSet.Add(new TailWhip);
+	moveSet.Add(new WingSlash);
+
+	holdItem : new LifeGem; fix. also charcoal
+	expToGive : 500;
+	weakness : "volt";
+	resistance : "fire";
+	stats.CreateNewStats(70, 60, 30, 55, 25);
+FireMacaw
+	characterName : "Fire Macaw";
+	boss : true;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Fly);
+
+	holdItem : new Carminite;
+	expToGive : 10;
+	weakness : "ice";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+FireWolf
+	characterName : "Fire wolf";
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Slash);
+	moveSet.Add(new Slash);
+
+	holdItem : new WolfPelt;
+	expToGive : 10;
+	weakness : "water";
+	resistance : "fire";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+FlameMonster
+	characterName : "Flame monster";
+	boss : false;
+	description : "A flame monster is a fiery beast with a rocky body and a head and four legs made of fire. He can spit out lava.";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Flamethrower);
+	moveSet.Add(new InfernoFormula);
+
+	holdItem : new SuperPotion;
+	expToGive : 250;
+	weakness : "ice";
+	resistance : "fire";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+	base_stats : {"energy": 60; "sp": 60; "power": 30; "defence": 55; "speed": 25; "accuracy": 100
+FlamePuff
+	characterName : "Flame Puff";
+	boss : true;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new FireFormula);
+	moveSet.Add(new Slash);
+
+	holdItem : new Charcoal;
+	expToGive : 10;
+	weakness : "ice"; fix. and also dark
+	resistance : "fire";
+	stats.CreateNewStats(35, 20, 10, 25, 5);
+FlameRhino
+	characterName : "Flame Rhino";
+	boss : false;
+	description : "A rhino with its horn made of fire.";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new BodySlam);
+	moveSet.Add(new Rest);
+	holdItem : new Horn; fix. also charcoal
+	expToGive : 20;
+	weakness : "ice";
+	resistance : "fire";
+	stats.CreateNewStats(70, 60, 30, 55, 25);
+Golem
+	characterName : "Golem";
+	boss : true;
+	description : "Monster make of rocks. Has a shield.";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new BodySlam);
+	moveSet.Add(new BoulderFist);
+	holdItem : new SteelShield;
+	expToGive : 10;
+	weakness : "ice";
+	resistance : "fire";
+	stats.CreateNewStats(35, 20, 10, 25, 5);
+	
+Gorrilla
+
+	characterName : "Gorrilla";
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Rest);
+	moveSet.Add(new HammerArm);
+
+	holdItem : new GorrillaButt;800 coins
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+Gunner
+	characterName : "Gunner";
+	boss : false;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Shoot);
+	moveSet.Add(new Slash);
+	holdItem : new AR15;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+HexerMonster
+	characterName : "Hexer";
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new HeadBash);
+	moveSet.Add(new Curse);
+
+	holdItem : new Cloak;
+	expToGive : 10;
+	weakness : "fire";
+	resistance : "dark";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+IceBird
+	characterName : "IceBird";
+	boss : false;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Fly);
+	moveSet.Add(new Slash);
+	holdItem : new Feather;
+	expToGive : 10;
+	weakness : "fire";
+	resistance : "ice";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+IceMonster
+	characterName : "T-Rex";
+	boss : true;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Bite);
+	moveSet.Add(new BlizzardFormula);
+	holdItem : new LargeTooth;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+IcePuff
+	characterName : "Ice Puff";
+	boss : true;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new IceBeam);
+	moveSet.Add(new IceShard);
+	holdItem : new SuperPotion;
+	expToGive : 10;
+	weakness : "fire"; fix. and also dark
+	resistance : "ice";
+	stats.CreateNewStats(35, 20, 10, 25, 5);
+Knight
+	characterName : "Knight";
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Stab);
+	moveSet.Add(new Slash);
+	moveSet.Add(new DrawingStance);
+
+	holdItem : new Helmet;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+LightningMcQueen
+	characterName : "Lightning McQueen";
+	boss : true;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Rest);
+	moveSet.Add(new Shoot);
+	holdItem : new Cars2DVD;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+Magician
+	characterName : "Magician";
+	boss : true;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Minimize);
+	moveSet.Add(new ParticleBeam);
+
+	holdItem : new CrystalStaff;
+	expToGive : 10;
+	weakness : "dark"; fix. and also dark
+	resistance : "fire";
+	stats.CreateNewStats(35, 20, 10, 25, 5);
+Penguin
+	characterName : "Penguin";
+	boss : true;
+	description : "Fatass Penguin";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new BlizzardFormula);
+	moveSet.Add(new Slash);
+
+	holdItem : new IceStone;
+	expToGive : 10;
+	weakness : "fire"; fix. and also dark
+	resistance : "ice";
+	stats.CreateNewStats(35, 20, 10, 25, 5);
+	
+Pirate
+
+	characterName : "Pirate";
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Rest);
+	moveSet.Add(new FireFormula);
+
+	holdItem : new GoldenNugget;
+	expToGive : 10;
+	weakness : "water"; fix. and also dark
+	resistance : "fire";
+	stats.CreateNewStats(35, 20, 10, 25, 5);
+Puppy
+	characterName : "Puppy";
+	boss : false;
+	description : "The cutest puppy you have ever seen. It spreads joy to everyone it encounters and should never be harmed ever.";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Bite);
+	moveSet.Add(new Scratch);
+	moveSet.Add(new Howl);
+
+	holdItem : new PuppySkull;
+	expToGive : -100;
+	weakness : ["fire", "ice", "dark", "volt", "water"]
+	weakness : "";
+	resistance : "";
+	base_stats : {"energy": 9000, "sp": 40, "power": 1, "defence": 5, "speed": 20, "accuracy": 100
+Python
+
+	characterName : "T-Rex";
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Bite);
+	moveSet.Add(new PoisonShot);
+
+	holdItem : new SnakeSkin;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+Sailor
+	characterName : "Sailor";
+	boss : false;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+
+	moveSet.Add(new Slash);
+	holdItem : new GoldenNugget;
+	expToGive : 10;
+	weakness : null; fix. and also dark
+	resistance : "water";
+	stats.CreateNewStats(35, 20, 10, 25, 5);
+SeaSerpent
+	characterName : "Sea serpent";
+	boss : true;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Dive);
+	moveSet.Add(new WaterCannon);
+	holdItem : new SeaScale;
+	expToGive : 10;
+	weakness : "volt";
+	resistance : null;
+	stats.CreateNewStats(35, 20, 10, 25, 5);
+	
+Skeleton
+
+	characterName : "Skeleton";
+	boss : false;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Rest);
+	moveSet.Add(new Slash);
+	holdItem : new Rib;800 coins
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+	
+Sorcerer
+
+	characterName : "Sorcerer";
+	boss : true;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new ParticleBeam);
+	moveSet.Add(new Scratch);
+	holdItem : new Wand;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+	
+StormDragon
+
+	characterName : "Storm Dragon";
+	boss : true;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new FrigidSlash);
+	moveSet.Add(new FlameGrater);
+	moveSet.Add(new Flamethrower);
+	moveSet.Add(new IceBeam);
+
+	holdItem : new ExtinguishedIce;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+Tank
+	characterName : "Tank"; 
+	boss : true;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Shoot);
+	moveSet.Add(new ParticleBeam);
+
+	holdItem : new Missile; 
+		expToGive : 10;
+		weakness : "volt";
+		resistance : "water";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+Thief
+	characterName : "Thief";
+	boss : false;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Steal);
+	moveSet.Add(new Slash);
+	holdItem : new GoldenNugget;800 coins
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+Tiger
+	characterName : "Tiger";
+	boss : false;
+	description : "";
+
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Bite);
+	moveSet.Add(new Scratch);
+
+	holdItem : new Fang, charcoal
+	expToGive : 20;
+	weakness : null;
+	resistance : "volt";
+	stats.CreateNewStats(70, 60, 30, 55, 25);
+TRex
+	characterName : "T-Rex";
+	boss : true;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new Bite);
+	moveSet.Add(new Scratch);
+	holdItem : new LargeTooth;
+	expToGive : 10;
+	weakness : "";
+	resistance : "";
+	stats.CreateNewStats(60, 60, 30, 55, 25);
+Warrior
+	characterName : "Warrior";
+	boss : true;
+	description : "";
+	ArrayList moveSet : new ArrayList;
+	moveSet.Add(new ShieldRush);
+	moveSet.Add(new Fortify);
+	holdItem : new SteelScrap; or steel shield
+	expToGive : 10;
+	weakness : null;
+	resistance : null;
+	stats.CreateNewStats(35, 20, 10, 25, 5);
