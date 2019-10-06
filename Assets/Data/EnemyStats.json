@@ -1,0 +1,549 @@
+Aagron
+{
+	"characterName":"Aagron",
+	"boss":false,
+	"description":"",
+	"moveSet":[HeadBash,Scratch],
+	"holdItem":new Horn,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+BabyDragon
+{
+	"characterName":"Baby dragon" ,
+	"boss":false,
+	"description":"",
+	"moveSet":[Bite,],
+	"holdItem":new DragonScale ,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	},
+	"base_stats":{"energy": 60 "sp": 60 "power": 30 "defence": 55 "speed": 25 "accuracy": 100
+}
+Bear
+{
+	"characterName":"Bear",
+	"boss":false,
+	"description":"",
+	"moveSet":[Rest,Slash],
+	"holdItem":new HoneyNutCheerios,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	},
+}
+Bee
+{
+	"characterName":"Bee",
+	"boss":false,
+	"description":"",
+	"moveSet":[Bite,Slash],
+	"holdItem":new MagicWings,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	},
+	"base_stats":{"energy": 60 "sp": 60 "power": 30 "defence": 55 "speed": 25 "accuracy": 100
+}
+Captain
+{
+	"characterName":"Captain" ,
+	"boss":false,
+	"description":"",
+	"moveSet":[Slash,Slash],
+	"holdItem":new DragonScale ,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	},
+	"base_stats":{"energy": 60 "sp": 60 "power": 30 "defence": 55 "speed": 25 "accuracy": 100
+}
+CastleGuards
+{
+	"characterName":"Castle guards",
+	"boss":false,
+	"description":"",
+	"moveSet":[Stab]
+	"holdItem":new LeatherScrap,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+Dragon
+{
+	"characterName":"Seaborne dragon",
+	"boss":true,
+	"description":"This dragon has the form of giant eel. It can hide its wings along its body and swim through the ocean.",
+	"moveSet":[IceBeam,Flamethrower,TailWhip,WingSlash],
+	"holdItem":new LifeGem fix. also charcoal,
+	"expToGive":500,
+	"weakness":"volt",
+	"resistance":"fire",
+	"stats:{
+		70, 60, 30, 55, 25
+	}
+}
+Captain
+{
+	"characterName":"Captain" ,
+	"boss":false,
+	"description":"",
+	"moveSet":[Slash,Slash],
+	"holdItem":new DragonScale ,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	},
+}
+CastleGuards
+{
+	"characterName":"Castle guards",
+	"boss":false,
+	"description":"",
+	"moveSet":[Stab]
+	"holdItem":new LeatherScrap,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+Dragon
+{
+	"characterName":"Seaborne dragon",
+	"boss":true,
+	"description":"This dragon has the form of giant eel. It can hide its wings along its body and swim through the ocean.",
+	"moveSet":[IceBeam,Flamethrower,TailWhip,WingSlash],
+	"holdItem":new LifeGem fix. also charcoal,
+	"expToGive":500,
+	"weakness":"volt",
+	"resistance":"fire",
+	"stats:{
+		70, 60, 30, 55, 25
+	}
+}
+FireMacaw
+{
+	"characterName":"Fire Macaw",
+	"boss":true,
+	"description":"",
+	"moveSet":[Fly],
+	"holdItem":new Carminite,
+	"expToGive":10,
+	"weakness":"ice",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+FireWolf
+{
+	"characterName":"Fire wolf",
+	"boss":false,
+	"description":"",
+	"moveSet":[Slash,Slash],
+	"holdItem":new WolfPelt,
+	"expToGive":10,
+	"weakness":"water",
+	"resistance":"fire",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+FlameMonster
+{
+	"characterName":"Flame monster",
+	"boss":false,
+	"description":"A flame monster is a fiery beast with a rocky body and a head and four legs made of fire. He can spit out lava.",
+	"moveSet":[Flamethrower,InfernoFormula],
+	"holdItem":new SuperPotion,
+	"expToGive":250,
+	"weakness":"ice",
+	"resistance":"fire",
+	"stats:{
+		60, 60, 30, 55, 25
+	},
+	"base_stats":{"energy": 60 "sp": 60 "power": 30 "defence": 55 "speed": 25 "accuracy": 100}
+}
+FlamePuff
+{
+	"characterName":"Flame Puff",
+	"boss":true,
+	"description":"",
+	"moveSet":[FireFormula,Slash],
+	"holdItem":new Charcoal,
+	"expToGive":10,
+	"weakness":"ice" fix. and also dark,
+	"resistance":"fire",
+	"stats:{
+		35, 20, 10, 25, 5
+	}
+}
+FlameRhino
+{
+	"characterName":"Flame Rhino",
+	"boss":false,
+	"description":"A rhino with its horn made of fire.",
+	"moveSet":[BodySlam,Rest],
+	"holdItem":new Horn fix. also charcoal,
+	"expToGive":20,
+	"weakness":"ice",
+	"resistance":"fire",
+	"stats:{
+		70, 60, 30, 55, 25
+	}
+}
+Golem
+{
+	"characterName":"Golem",
+	"boss":true,
+	"description":"Monster make of rocks. Has a shield.",
+	"moveSet":[BodySlam,BoulderFist],
+	"holdItem":new SteelShield,
+	"expToGive":10,
+	"weakness":"ice",
+	"resistance":"fire",
+	"stats:{
+		35, 20, 10, 25, 5
+	}
+}
+Gorrilla
+{
+	"characterName":"Gorrilla",
+	"boss":false,
+	"description":"",
+	"moveSet":[Rest,HammerArm],
+	"holdItem":new GorrillaButt800 coins,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+Gunner
+{
+	"characterName":"Gunner",
+	"boss":false,
+	"description":"",
+	"moveSet":[Shoot,Slash],
+	"holdItem":new AR15,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+HexerMonster
+{
+	"characterName":"Hexer",
+	"boss":false,
+	"description":"",
+	"moveSet":[HeadBash,Curse],
+	"holdItem":new Cloak,
+	"expToGive":10,
+	"weakness":"fire",
+	"resistance":"dark",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+IceBird
+{
+	"characterName":"IceBird",
+	"boss":false,
+	"description":"",
+	"moveSet":[Fly,Slash],
+	"holdItem":new Feather,
+	"expToGive":10,
+	"weakness":"fire",
+	"resistance":"ice",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+IceMonster
+{
+	"characterName":"T-Rex",
+	"boss":true,
+	"description":"",
+	"moveSet":[Bite,BlizzardFormula],
+	"holdItem":new LargeTooth,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+IcePuff
+{
+	"characterName":"Ice Puff",
+	"boss":true,
+	"description":"",
+	"moveSet":[IceBeam,IceShard],
+	"holdItem":new SuperPotion,
+	"expToGive":10,
+	"weakness":"fire" fix. and also dark,
+	"resistance":"ice",
+	"stats:{
+		35, 20, 10, 25, 5
+	}
+}
+Knight
+{
+	"characterName":"Knight",
+	"boss":false,
+	"description":"",
+	"moveSet":[Stab,Slash,DrawingStance],
+	"holdItem":new Helmet,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+LightningMcQueen
+{
+	"characterName":"Lightning McQueen",
+	"boss":true,
+	"description":"",
+	"moveSet":[Rest,Shoot],
+	"holdItem":new Cars2DVD,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+Magician
+{
+	"characterName":"Magician",
+	"boss":true,
+	"description":"",
+	"moveSet":[Minimize,ParticleBeam],
+	"holdItem":new CrystalStaff,
+	"expToGive":10,
+	"weakness":"dark" fix. and also dark,
+	"resistance":"fire",
+	"stats:{
+		35, 20, 10, 25, 5
+	}
+}
+Penguin
+{
+	"characterName":"Penguin",
+	"boss":true,
+	"description":"Fatass Penguin",
+	"moveSet":[BlizzardFormula,Slash],
+	"holdItem":new IceStone,
+	"expToGive":10,
+	"weakness":"fire" fix. and also dark,
+	"resistance":"ice",
+	"stats:{
+		35, 20, 10, 25, 5
+	}
+},
+	"
+Pirate
+{
+	"characterName":"Pirate",
+	"boss":false,
+	"description":"",
+	"moveSet":[Rest,FireFormula],
+	"holdItem":new GoldenNugget,
+	"expToGive":10,
+	"weakness":"water" fix. and also dark,
+	"resistance":"fire",
+	"stats:{
+		35, 20, 10, 25, 5
+	}
+}
+Puppy
+{
+	"characterName":"Puppy",
+	"boss":false,
+	"description":"The cutest puppy you have ever seen. It spreads joy to everyone it encounters and should never be harmed ever.",
+	"moveSet":[Bite,Scratch,Howl],
+	"holdItem":new PuppySkull,
+	"expToGive":-100,
+	"weakness":["fire", "ice", "dark", "volt", "water"],
+	"weakness":"",
+	"resistance":"",
+	"base_stats":{"energy": 9000, "sp": 40, "power": 1, "defence": 5, "speed": 20, "accuracy": 100
+}
+Python
+{
+	"characterName":"T-Rex",
+	"boss":false,
+	"description":"",
+	"moveSet":[Bite,PoisonShot],
+	"holdItem":new SnakeSkin,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+Sailor
+{
+	"characterName":"Sailor",
+	"boss":false,
+	"description":"",
+	"moveSet":[Slash],
+	"holdItem":new GoldenNugget,
+	"expToGive":10,
+	"weakness":"" fix. and also dark,
+	"resistance":"water",
+	"stats:{
+		35, 20, 10, 25, 5
+	}
+}
+SeaSerpent
+{
+	"characterName":"Sea serpent",
+	"boss":true,
+	"description":"",
+	"moveSet":[Dive,WaterCannon],
+	"holdItem":new SeaScale,
+	"expToGive":10,
+	"weakness":"volt",
+	"resistance":"",
+	"stats:{
+		35, 20, 10, 25, 5
+	}
+}
+Skeleton
+{
+	"characterName":"Skeleton",
+	"boss":false,
+	"description":"",
+	"moveSet":[Rest,Slash],
+	"holdItem":new Rib800 coins,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+Sorcerer
+{
+	"characterName":"Sorcerer",
+	"boss":true,
+	"description":"",
+	"moveSet":[ParticleBeam,Scratch],
+	"holdItem":new Wand,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+StormDragon
+{
+	"characterName":"Storm Dragon",
+	"boss":true,
+	"description":"",
+	"moveSet":[FrigidSlash,FlameGrater,Flamethrower,IceBeam],
+	"holdItem":new ExtinguishedIce,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+Tank
+{
+	"characterName":"Tank" ,
+	"boss":true,
+	"description":"",
+	"moveSet":[Shoot,ParticleBeam],
+	"holdItem":new Missile ,
+	"expToGive":10,
+	"weakness":"volt",
+	"resistance":"water",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+Thief
+{
+	"characterName":"Thief",
+	"boss":false,
+	"description":"",
+	"moveSet":[Steal,Slash],
+	"holdItem":new GoldenNugget800 coins,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+}
+Tiger
+{
+	"characterName":"Tiger",
+	"boss":false,
+	"description":"",
+	"moveSet":[Bite,Scratch],
+	"holdItem":new Fang, charcoal,
+	"expToGive":20,
+	"weakness":"",
+	"resistance":"volt",
+	"stats:{
+		70, 60, 30, 55, 25
+	}
+}
+TRex
+{
+	"characterName":"T-Rex",
+	"boss":true,
+	"description":"",
+	"moveSet":[Bite,Scratch],
+	"holdItem":new LargeTooth,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		60, 60, 30, 55, 25
+	}
+Warrior
+{
+	"characterName":"Warrior",
+	"boss":true,
+	"description":"",
+	"moveSet":[ShieldRush,Fortify],
+	"holdItem":new SteelScrap or steel shield,
+	"expToGive":10,
+	"weakness":"",
+	"resistance":"",
+	"stats:{
+		35, 20, 10, 25, 5
+	}
+}
