@@ -1,435 +1,431 @@
 {
 	"AnalysisLens": {
-		"sellingPrice": 4000,
-		"itemName": "Analysis Lens",
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Analysis Lens",
+		"sellingPrice": 4000
 	},
 	"Antidote": {
-		"sellingPrice": 150,
-		"itemName": "Antidote",
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": true,
 		"isUsable": true,
-		"isKeyItem": false
+		"itemName": "Antidote",
+		"sellingPrice": 150
 	},
 	"AR15": {
-		"sellingPrice": 10000,
-		"itemName": "AR-15",
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": true,
-		"isKeyItem": false
+		"itemName": "AR-15",
+		"sellingPrice": 10000
 	},
 	"AriadneThread": {
-		"sellingPrice": 200,
-		"itemName": "Adiadne Thread",
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": true,
 		"isUsable": true,
-		"isKeyItem": false
+		"itemName": "Adiadne Thread",
+		"sellingPrice": 200
 	},
 	"BattleAxe": {
-		"sellingPrice": 500,
-		"itemName": "Battle Axe",
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false,
+		"itemName": "Battle Axe",
+		"sellingPrice": 500,
 		"statToBoost": []
 	},
 	"Cake": {
-		"sellingPrice": 600,
-		"itemName": "Cake",
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": true,
 		"isUsable": true,
-		"isKeyItem": false
+		"itemName": "Cake",
+		"sellingPrice": 600
 	},
 	"Carminite": {
-		"itemName": "Carminiite",
-		"sellingPrice": 18,
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Carminiite",
+		"sellingPrice": 18
 	},
 	"Cars2DVD": {
-		"itemName": "Cars 2 DVD",
-		"sellingPrice": 20000,
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Cars 2 DVD",
+		"sellingPrice": 20000
 	},
 	"Charcoal": {
-		"itemName": "Charcoal",
-		"sellingPrice": 40,
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Charcoal",
+		"sellingPrice": 40
 	},
 	"Cloak": {
-		"sellingPrice": 3000,
-		"itemName": "Cloak",
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Cloak",
+		"sellingPrice": 3000
 	},
 	"Cookie": {
-		"sellingPrice": 1000,
-		"itemName": "Cookie",
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": true,
 		"isUsable": true,
-		"isKeyItem": false
+		"itemName": "Cookie",
+		"sellingPrice": 1000
 	},
 	"CrystalShield": {
-		"sellingPrice": 8000,
-		"itemName": "Crystal shield",
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Crystal shield",
+		"sellingPrice": 8000
 	},
 	"CrystalStaff": {
 		"itemName": "Crystal staff",
 		"sellingPrice": 1200
 	},
 	"DragonScale": {
-		"itemName": "Dragon scale",
-		"sellingPrice": 100,
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Dragon scale",
+		"sellingPrice": 100
 	},
 	"ExtinguishedIce": {
-		"itemName": "Extinguished ice",
-		"sellingPrice": 800,
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Extinguished ice",
+		"sellingPrice": 800
 	},
 	"Fang": {
-		"itemName": "Fang",
-		"sellingPrice": 35,
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Fang",
+		"sellingPrice": 35
 	},
 	"Feather": {
-		"itemName": "feather",
-		"sellingPrice": 10,
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "feather",
+		"sellingPrice": 10
 	},
 	"FireResistantPotion": {
-		"sellingPrice": 100,
-		"itemName": "Fire resistant potion",
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": true,
 		"isUsable": true,
-		"isKeyItem": false
+		"itemName": "Fire resistant potion",
+		"sellingPrice": 100
 	},
 	"FireStone": {
-		"itemName": "Fire stone",
-		"sellingPrice": 200,
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Fire stone",
+		"sellingPrice": 200
 	},
 	"GoldenNugget": {
-		"sellingPrice": 5000,
-		"itemName": "GoldenNugget",
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"icon": true,
-		"isKeyItem": false
+		"itemName": "GoldenNugget",
+		"sellingPrice": 5000
 	},
 	"GorrillaButt": {
-		"sellingPrice": 1000,
-		"itemName": "Gorilla butt",
 		"isBattleItem": false,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": false,
-		"isKeyItem": false
+		"itemName": "Gorilla butt",
+		"sellingPrice": 1000
 	},
 	"Hamao": {
-		"sellingPrice": 1000,
-		"itemName": "Hamao",
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": true,
 		"isUsable": true,
-		"isKeyItem": false
+		"itemName": "Hamao",
+		"sellingPrice": 1000
 	},
-	"HoneyNutCheerios":{
-	"itemName":"",
-	"sellingPrice":150,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"Horn":{
-	"itemName":"Horn",
-	"sellingPrice":15,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"IceStone":{
-	"itemName":"Ice stone",
-	"sellingPrice":200,
-	"isBattleItem":false,
-	"isOverWorldItem":true,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"LargeTooth":{
-	"itemName":"Large tooth",
-	"sellingPrice":100,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"LeatherScrap":{
-	"itemName":"Leather scrap",
-	"sellingPrice":200,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"Leftovers":{
-	"sellingPrice":3500,
-	"itemName":"Leftovers",
-	"isBattleItem":true,
-	"isOverWorldItem":false,
-	"isUsable":true,
-	"isKeyItem":false
-},
-"LifeGem":{
-	"sellingPrice":-1,
-	"itemName":"Life Gem",
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":true,
-	"statToBoost":"",
-	"boost":""
-},
-"MagicWings":{
-	"itemName":"Magic wings",
-	"sellingPrice":8,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"MaxPotion":{
-	"sellingPrice":500,
-	"itemName":"Max potion",
-	"isBattleItem":true,
-	"isOverWorldItem":true,
-	"isUsable":true,
-	"isKeyItem":false
-},
-"MaxRevive":{
-	"sellingPrice":1000,
-	"itemName":"MaxRevive",
-	"isBattleItem":true,
-	"isOverWorldItem":true,
-	"isUsable":true,
-	"isKeyItem":false
-},
-"Missile":{
-	"itemName":"Missile",
-	"sellingPrice":3000,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"NerveGas":{
-	"sellingPrice":500,
-	"itemName":"Nerve Gas",
-	"isBattleItem":true,
-	"isOverWorldItem":false,
-	"isUsable":true,
-	"isKeyItem":false
-},
-"PlatinumShield":{
-	"sellingPrice":5000,
-	"itemName":"Platinum shield",
-	"statToBoost":"",
-	"boost": ""
-},
-"PuppySkull":{
-	"sellingPrice":10,
-	"itemName":"Puppy skull",
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"Revive":{
-	"sellingPrice":1000,
-	"itemName":"Revive",
-	"isBattleItem":true,
-	"isOverWorldItem":true,
-	"isUsable":true,
-	"isKeyItem":false
-},
-"Rib":{
-	"itemName":"Rib",
-	"sellingPrice":25,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"SeaScale":{
-	"itemName":"Sea scale",
-	"sellingPrice":30,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"SmokeBomb":{
-	"sellingPrice":1000,
-	"itemName":"smoke bomb",
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"SnakeSkin":{
-	"itemName":"Snake skin",
-	"sellingPrice":30,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"Soma":{
-	"sellingPrice":500,
-	"itemName":"soma",
-	"isBattleItem":true,
-	"isOverWorldItem":true,
-	"isUsable":true,
-	"isKeyItem":false
-},
-"SteelArmor":{
-	"sellingPrice":800,
-	"itemName":"Steel Armor",
-	"statToBoost":"",
-	"boost'": ""
-},
-"SteelScrap":{
-	"itemName":"SteelScrap",
-	"sellingPrice":25,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"SteelShield":{
-	"itemName":"Steel shield",
-	"sellingPrice":300,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"SuperPotion":{
-	"itemName":"Super potion",
-	"sellingPrice":200,
-	"isBattleItem":true,
-	"isOverWorldItem":true,
-	"isUsable":true,
-	"isKeyItem":false
-},
-"ToxicGas":{
-	"sellingPrice":500,
-	"itemName":"ToxicGas",
-	"isBattleItem":true,
-	"isOverWorldItem":true,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"Wand":{
-	"itemName":"Wand",
-	"sellingPrice":300,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"WolfPelt":{
-	"itemName":"Wolf pelt",
-	"sellingPrice":28,
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false
-},
-"WoodenShield":{
-	"sellingPrice":500,
-	"itemName":"Wooden shield",
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-	"isKeyItem":false,
-	"statToBoost":"",
-	"boost": ""
-},
-	"XAccuracy": {
-		"sellingPrice": 200,
-		"itemName": "XAccuracy",
+	"HoneyNutCheerios": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "",
+		"sellingPrice": 150
+	},
+	"Horn": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Horn",
+		"sellingPrice": 15
+	},
+	"IceStone": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": true,
+		"isUsable": false,
+		"itemName": "Ice stone",
+		"sellingPrice": 200
+	},
+	"LargeTooth": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Large tooth",
+		"sellingPrice": 100
+	},
+	"LeatherScrap": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Leather scrap",
+		"sellingPrice": 200
+	},
+	"Leftovers": {
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": true,
-		"isKeyItem": false
+		"itemName": "Leftovers",
+		"sellingPrice": 3500
+	},
+	"LifeGem": {
+		"boost": "",
+		"isBattleItem": false,
+		"isKeyItem": true,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Life Gem",
+		"sellingPrice": -1,
+		"statToBoost": ""
+	},
+	"MagicWings": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Magic wings",
+		"sellingPrice": 8
+	},
+	"MaxPotion": {
+		"isBattleItem": true,
+		"isKeyItem": false,
+		"isOverWorldItem": true,
+		"isUsable": true,
+		"itemName": "Max potion",
+		"sellingPrice": 500
+	},
+	"MaxRevive": {
+		"isBattleItem": true,
+		"isKeyItem": false,
+		"isOverWorldItem": true,
+		"isUsable": true,
+		"itemName": "MaxRevive",
+		"sellingPrice": 1000
+	},
+	"Missile": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Missile",
+		"sellingPrice": 3000
+	},
+	"NerveGas": {
+		"isBattleItem": true,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": true,
+		"itemName": "Nerve Gas",
+		"sellingPrice": 500
+	},
+	"PlatinumShield": {
+		"boost": "",
+		"itemName": "Platinum shield",
+		"sellingPrice": 5000,
+		"statToBoost": ""
+	},
+	"PuppySkull": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Puppy skull",
+		"sellingPrice": 10
+	},
+	"Revive": {
+		"isBattleItem": true,
+		"isKeyItem": false,
+		"isOverWorldItem": true,
+		"isUsable": true,
+		"itemName": "Revive",
+		"sellingPrice": 1000
+	},
+	"Rib": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Rib",
+		"sellingPrice": 25
+	},
+	"SeaScale": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Sea scale",
+		"sellingPrice": 30
+	},
+	"SmokeBomb": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "smoke bomb",
+		"sellingPrice": 1000
+	},
+	"SnakeSkin": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Snake skin",
+		"sellingPrice": 30
+	},
+	"Soma": {
+		"isBattleItem": true,
+		"isKeyItem": false,
+		"isOverWorldItem": true,
+		"isUsable": true,
+		"itemName": "soma",
+		"sellingPrice": 500
+	},
+	"SteelArmor": {
+		"boost'": "",
+		"itemName": "Steel Armor",
+		"sellingPrice": 800,
+		"statToBoost": ""
+	},
+	"SteelScrap": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "SteelScrap",
+		"sellingPrice": 25
+	},
+	"SteelShield": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Steel shield",
+		"sellingPrice": 300
+	},
+	"SuperPotion": {
+		"isBattleItem": true,
+		"isKeyItem": false,
+		"isOverWorldItem": true,
+		"isUsable": true,
+		"itemName": "Super potion",
+		"sellingPrice": 200
+	},
+	"ToxicGas": {
+		"isBattleItem": true,
+		"isKeyItem": false,
+		"isOverWorldItem": true,
+		"isUsable": false,
+		"itemName": "ToxicGas",
+		"sellingPrice": 500
+	},
+	"Wand": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Wand",
+		"sellingPrice": 300
+	},
+	"WolfPelt": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Wolf pelt",
+		"sellingPrice": 28
+	},
+	"WoodenShield": {
+		"boost": "",
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Wooden shield",
+		"sellingPrice": 500,
+		"statToBoost": ""
+	},
+	"XAccuracy": {
+		"isBattleItem": true,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": true,
+		"itemName": "XAccuracy",
+		"sellingPrice": 200
 	},
 	"XDefence": {
-		"sellingPrice": 200,
-		"itemName": "XDefence",
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": true,
-		"icon": true,
-		"isKeyItem": false
+		"itemName": "XDefence",
+		"sellingPrice": 200
 	},
 	"XStrength": {
-		"sellingPrice": 200,
-		"itemName": "XStrength",
 		"isBattleItem": true,
+		"isKeyItem": false,
 		"isOverWorldItem": false,
 		"isUsable": true,
-		"icon": true,
-		"isKeyItem": false
+		"itemName": "XStrength",
+		"sellingPrice": 200
 	},
-	"ZoomLens":{
-	"sellingPrice":4000,
-	"itemName":"Zoom Lens",
-	"isBattleItem":false,
-	"isOverWorldItem":false,
-	"isUsable":false,
-		"isKeyItem": false
-
+	"ZoomLens": {
+		"isBattleItem": false,
+		"isKeyItem": false,
+		"isOverWorldItem": false,
+		"isUsable": false,
+		"itemName": "Zoom Lens",
+		"sellingPrice": 4000
 	}
 }
