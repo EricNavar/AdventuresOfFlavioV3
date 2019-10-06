@@ -1,836 +1,797 @@
-Bite
 {
-	"moveName":"Bite",
-	"description":"A bite at an enemy.",
-	"type":"",
-	"baseAttack":70,
-	"accuracy":.95,
-	"priority":0,
-	"sp":8,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-BlindingLight
-{
-	"moveName":"blinding light",
-	"description":"Lowers accuracy of foes.",
-	"battleText":"",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":.8,
-	"priority":0,
-	"sp":8,
-	"targets":"enemies",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-BlizzardFormula
-{
-	"moveName":"Blizzard formula",
-	"description":"An freezing wave toward all enemies",
-	"type":"ice",
-	"baseAttack":120,
-	"accuracy":.7,
-	"priority":0,
-	"sp":10,
-	"targets":"enemies",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-BoulderFist
-{
-	"moveName":"BoulderFist",
-	"description":"A powerful attack with a rock-hard fist.",
-	"type":"",
-	"baseAttack":80,
-	"accuracy":1,
-	"priority":0,
-	"sp":8,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-ClearStance
-{
-	"moveName":"clear stance",
-	"description":"Increases accuracy",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":0,
-	"priority":0,
-	"sp":5,
-	"targets":"self",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-CorruptCurse
-{
-	"moveName":"CorruptCurse",
-	"description":"An attack on the foe's soul. May curse the enemy.",
-	"type":"dark",
-	"baseAttack":50,
-	"accuracy":.95,
-	"priority":0,
-	"sp":12,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"curse",
-	"effectRate":.3,
-	"recoil":0
-}
-Curse
-{
-	"moveName":"Curse",
-	"description":"",
-	"battleText":"",
-	"type":"dark",
-	"baseAttack":0,
-	"accuracy":.8,
-	"priority":0,
-	"sp":8,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"curse",
-	"effectRate":.8,
-	"recoil":0
-}
-Defend
-{
-	"moveName":"Defend",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":0,
-	"priority":3,
-	"sp":0,
-	"targets":"self",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Dig
-{
-	"moveName":"Dig",
-	"description":"Digs into the ground and attacks one turn later",
-	"battleText":"",
-	"type":"",
-	"baseAttack":60,
-	"accuracy":.90,
-	"priority":0,
-	"sp":12,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Dive
-{
-	"moveName":"Dive",
-	"description":"Dives into water and attacks one turn later",
-	"battleText":"",
-	"type":"water",
-	"baseAttack":60,
-	"accuracy":1,
-	"priority":0,
-	"sp":8,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-DragonClaw
-{
-	"moveName":"Dragon claw",
-	"description":"A clawed attack to a foe.",
-	"type":"",
-	"baseAttack":90,
-	"accuracy":.95,
-	"priority":0,
-	"sp":12,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-DrawingStance
-{
-	"moveName":"Drawing stance",
-	"description":"Increases the user's attack",
-	"battleText":"",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":0,
-	"priority":0,
-	"sp":3,
-	"targets":"self",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Earthquake
-{
-	"moveName":"earthquake",
-	"description":"A powerful earthquake hits all foes but also allies.",
-	"type":"",
-	"baseAttack":100,
-	"accuracy":1,
-	"priority":0,
-	"sp":20,
-	"targets":"all",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-FireFormula
-{
-	"moveName":"Fire formula",
-	"description":"A blast of fire toward one enemy.",
-	"type":"fire",
-	"baseAttack":100,
-	"accuracy":.95,
-	"priority":0,
-	"sp":10,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"burn",
-	"effectRate":.2,
-	"recoil":0
-}
-FlameGrater
-{
-	"moveName":"flame grater",
-	"description":"elemental sword attack to an enemy. Attacks first.",
-	"type":"fire",
-	"baseAttack":55,
-	"accuracy":1,
-	"priority":0,
-	"sp":7,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Fly
-{
-	"moveName":"Fly",
-	"description":"Flies in the air and attacks one turn later",
-	"battleText":"",
-	"type":"",
-	"baseAttack":80,
-	"accuracy":.9,
-	"priority":0,
-	"sp":10,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Fly2
-{
-	"moveName":"Fly",
-	"description":"Flies in the air and attacks one turn later",
-	"battleText":"",
-	"type":"",
-	"baseAttack":80,
-	"accuracy":.9,
-	"priority":0,
-	"sp":10,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Fortify
-{
-	"moveName":"Fortify",
-	"description":"",
-	"battleText":"",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":0,
-	"priority":0,
-	"sp":4,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-FranticRush
-{
-	"moveName":"Frantic rush",
-	"description":"Ends the battle is successful.",
-	"battleText":"",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":.85,
-	"priority":0,
-	"sp":0,
-	"targets":"party",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-FrigidSlash
-{
-	"moveName":"frigid slash",
-	"description":"elemental sword attack to an enemy. Attacks first",
-	"type":"ice",
-	"baseAttack":55,
-	"accuracy":.9,
-	"priority":1,
-	"sp":7,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-GhastlyClaw
-{
-	"moveName":"ghastly claw",
-	"description": "Summons a ghastly claw to attack an enemy",
-	"type":"dark",
-	"baseAttack":30,
-	"accuracy":1,
-	"priority":0,
-	"sp":5,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-HammerArm
-{
-	"moveName":"hammer arm",
-	"description":"A powerful brute force against an enemy. The user takes recoil.",
-	"type":"",
-	"baseAttack":100,
-	"accuracy":1,
-	"priority":0,
-	"sp":10,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":.2f
-}
-HeadBash
-{
-	"moveName":"Head bash",
-	"description":"Powerful bash against enemy. Badly hurts the user.",
-	"type":"",
-	"baseAttack":140,
-	"accuracy":85,
-	"priority":0,
-	"sp":18,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":.3f
-}
-Heal
-{
-	"moveName":"Heal",
-	"description":"Removes any status effects.",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":0,
-	"priority":0,
-	"sp":8,
-	"targets":"party",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Howl
-{
-	"moveName":"Howl",
-	"description":"Lowers the enemy's attack",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":.95,
-	"priority":0,
-	"sp":3,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-IceBeam
-"effect": "freeze", "accuracy": 15
-IceShard
-{
-	"moveName":"Ice shard",
-	"description":"Shoots a wave of icecicles to enemies",
-	"battleText":"",
-	"type":"",
-	"baseAttack":70,
-	"accuracy":.7,
-	"priority":0,
-	"sp":15,
-	"targets":"all",
-	"contact":false,
-	"secondaryEffect":"frozen",
-	"effectRate":.2,
-	"recoil":0
-}
-LegionThrust
-{
-	"moveName":"legion thrust",
-	"description":"A physical attack toward all enemies",
-	"battleText":"",
-	"type":"",
-	"baseAttack":50,
-	"accuracy":.95,
-	"priority":0,
-	"sp":15,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Lick
-{
-	"moveName":"Lick",
-	"description":"",
-	"battleText":"",
-	"type":"",
-	"baseAttack":1,
-	"accuracy":1,
-	"priority":2,
-	"sp":0,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-LightningStab
-{
-	"moveName":"lightning stab",
-	"description":"elemental sword attack to an enemy. Attacks first.",
-	"type":"volt",
-	"baseAttack":55,
-	"accuracy":.9,
-	"priority":1,
-	"sp":7,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-LuringWhisper
-{
-	"moveName":"Luring whisper"anesthetic,
-	"description":"Luring whisper toward all enemies that ma induce sleep",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":.3,
-	"priority":0,
-	"sp":0,
-	"targets":"enemies",
-	"contact":false,
-	"secondaryEffect":"sleep",
-	"effectRate":.3,
-	"recoil":0
-}
-Minimize
-{
-	"moveName":"Minimize",
-	"description":"Increases evasiveness",
-	"battleText":"",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":0,
-	"priority":0,
-	"sp":8,
-	"targets":"self",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-NightmareCurse
-{
-	"moveName":"Nightmare curse",
-	"description":"absorbs energy of sleeping enemies",
-	"type":"dark",
-	"baseAttack":90,
-	"accuracy":.90,
-	"priority":0,
-	"sp":6,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-ParticleBeam
-{
-	"moveName":"particle beam",
-	"description":"A beam of charged particles to an enemy",
-	"battleText":"",
-	"type":"volt",
-	"baseAttack":120,
-	"accuracy":.95,
-	"priority":0,
-	"sp":15,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-PoisonShot
-{
-	"moveName":"poison shot",
-	"description":"A jab that may poison the enemy",
-	"type":"",
-	"baseAttack":100,
-	"accuracy":.95,
-	"priority":0,
-	"sp":15,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"poison",
-	"effectRate":.15,
-	"recoil":0
-}
-PoisonSting
-{
-	"moveName":"Poison sting",
-	"description":"",
-	"battleText":"",
-	"type":"",
-	"baseAttack":80,
-	"accuracy":.95,
-	"priority":0,
-	"sp":12,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect :"poison" ,
-	"effectRate":.2,
-	"recoil":0
-}
-QuickAttack
-{
-	"moveName":"Quick attack",
-	"description":"An attack that attacks first.",
-	"type":"",
-	"baseAttack":30,
-	"accuracy":.95,
-	"priority":1,
-	"sp":2,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-RagingEdge
-{
-	"moveName":"raging edsge",
-	"description":"A powerful slash attack",
-	"battleText":"",
-	"type":"",
-	"baseAttack":100,
-	"accuracy":.9,
-	"priority":0,
-	"sp":12,
-	"targets":"all",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-RegularAttack
-{
-	"moveName":"Attack",
-	"description":"A regular attack",
-	"type":"",
-	"baseAttack":50,
-	"accuracy":.95,
-	"priority":0,
-	"sp":0,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0
-}
-Rest
-{
-	"moveName":"Rest",
-	"description":"",
-	"battleText":"",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":0,
-	"priority":0,
-	"sp":5,
-	"targets":"self",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Revive_Move
-{
-	"moveName":"Revive",
-	"description":"revives an ally",
-	"battleText":"",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":0,
-	"priority":0,
-	"sp":20,
-	"targets":"ally",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-RockBlast
-{
-	"moveName":"Rock blast",
-	"description":"",
-	"battleText":"",
-	"type":"",
-	"baseAttack":90,
-	"accuracy":100,
-	"priority":0,
-	"sp":10,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Scratch
-{
-	"moveName":"Scratch",
-	"description":"",
-	"battleText":"",
-	"type":"",
-	"baseAttack":40,
-	"accuracy":1,
-	"priority":0,
-	"sp":3,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-ShieldRush
-{
-	"moveName":"Shield Rush",
-	"description":"An attack toward all enemies. May reduce the defence of the target.",
-	"type":"",
-	"baseAttack":50,
-	"accuracy":.95,
-	"priority":0,
-	"sp":10,
-	"targets":"enemies",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Shoot
-{
-	"moveName":"Shoot",
-	"description":"You shoot someone with an AR-15. Your aim is really bad though.",
-	"battleText":"",
-	"type":"",
-	"baseAttack":500,
-	"accuracy":.4,
-	"priority":0,
-	"sp":50,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Slash
-{
-	"moveName":"Slash",
-	"description":"",
-	"battleText":"",
-	"type":"",
-	"baseAttack":30,
-	"accuracy":1,
-	"priority":0,
-	"sp":3,
-	"targets":"foe",
-	"contact":false?,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Stab
-{
-	"moveName":"Stab",
-	"description":"",
-	"battleText":"",
-	"type":"",
-	"baseAttack":50,
-	"accuracy":.85,
-	"priority":0,
-	"sp":5,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Swift
-{
-	"moveName":"Swift",
-	"description":"This attack will never miss",
-	"type":"",
-	"baseAttack":50,
-	"accuracy":0,
-	"priority":0,
-	"sp":8,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-TailWhip
-{
-	"moveName":"Tail whip",
-	"description":"the user slams his tail into his foe.",
-	"battleText":"",
-	"type":"",
-	"baseAttack":120,
-	"accuracy":.65,
-	"priority":0,
-	"sp":8,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-TakeDown
-{
-	"moveName":"Take down",
-	"description":"A strong attack but takes recoil",
-	"type":"",
-	"baseAttack":120,
-	"accuracy":1,
-	"priority":0,
-	"sp":2,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":.25f
-}
-ThorFormula
-{
-	"moveName":"Thor formula",
-	"description":"A volt attack at all enemies",
-	"type":"volt",
-	"baseAttack":70,
-	"accuracy":95,
-	"priority":0,
-	"sp":25,
-	"targets":"all foes",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-Toxin
-{
-	"moveName":"toxin",
-	"description":"May poison the enemy",
-	"type":"",
-	"baseAttack":0,
-	"accuracy":.95,
-	"priority":0,
-	"sp":8,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"poison",
-	"effectRate":.95,
-	"recoil":0
-}
-VoltFormula
-{
-	"moveName":"volt formula",
-	"description":"A volt attack at one enemy",
-	"type":"volt",
-	"baseAttack":70,
-	"accuracy":.95,
-	"priority":0,
-	"sp":8,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"paralize",
-	"effectRate":.1,
-	"recoil":0
-}
-WaterCannon
-{
-	"moveName":"Water cannon",
-	"description":"Rest the next turn.",
-	"battleText":"",
-	"type":"water",
-	"baseAttack":150,
-	"accuracy":.9,
-	"priority":0,
-	"sp":12,
-	"targets":"foe",
-	"contact":false,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
-}
-WingSlash
-{
-	"moveName":"Winglash",
-	"description":"",
-	"battleText":"",
-	"type":"",
-	"baseAttack":60,
-	"accuracy":.9,
-	"priority":0,
-	"sp":8,
-	"targets":"foe",
-	"contact":true,
-	"secondaryEffect":"",
-	"effectRate":0,
-	"recoil":0
+	"Bite": {
+		"moveName": "Bite",
+		"description": "A bite at an enemy.",
+		"type": "",
+		"baseAttack": 70,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 8,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Steal": {
+		"moveName": "Steal",
+		"description": "The user steals the target's hold item.",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 30,
+		"accuracy": 75,
+		"priority": 0,
+		"sp": 5,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"BlindingLight": {
+		"moveName": "blinding light",
+		"description": "Lowers accuracy of foes.",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 8,
+		"priority": 0,
+		"sp": 8,
+		"targets": "enemies",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"BlizzardFormula": {
+		"moveName": "Blizzard formula",
+		"description": "An freezing wave toward all enemies",
+		"type": "ice",
+		"baseAttack": 120,
+		"accuracy": 7,
+		"priority": 0,
+		"sp": 10,
+		"targets": "enemies",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"BoulderFist": {
+		"moveName": "BoulderFist",
+		"description": "A powerful attack with a rock-hard fist.",
+		"type": "",
+		"baseAttack": 80,
+		"accuracy": 1,
+		"priority": 0,
+		"sp": 8,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"ClearStance": {
+		"moveName": "clear stance",
+		"description": "Increases accuracy",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 0,
+		"priority": 0,
+		"sp": 5,
+		"targets": "self",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"CorruptCurse": {
+		"moveName": "CorruptCurse",
+		"description": "An attack on the foe's soul. May curse the enemy.",
+		"type": "dark",
+		"baseAttack": 50,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 12,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "curse",
+		"effectRate": 3,
+		"recoil": 0
+	},
+	"Curse": {
+		"moveName": "Curse",
+		"description": "",
+		"battleText": "",
+		"type": "dark",
+		"baseAttack": 0,
+		"accuracy": 8,
+		"priority": 0,
+		"sp": 8,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "curse",
+		"effectRate": 8,
+		"recoil": 0
+	},
+	"Defend": {
+		"moveName": "Defend",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 0,
+		"priority": 3,
+		"sp": 0,
+		"targets": "self",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Dig": {
+		"moveName": "Dig",
+		"description": "Digs into the ground and attacks one turn later",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 60,
+		"accuracy": 90,
+		"priority": 0,
+		"sp": 12,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Dive": {
+		"moveName": "Dive",
+		"description": "Dives into water and attacks one turn later",
+		"battleText": "",
+		"type": "water",
+		"baseAttack": 60,
+		"accuracy": 1,
+		"priority": 0,
+		"sp": 8,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"DragonClaw": {
+		"moveName": "Dragon claw",
+		"description": "A clawed attack to a foe.",
+		"type": "",
+		"baseAttack": 90,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 12,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"DrawingStance": {
+		"moveName": "Drawing stance",
+		"description": "Increases the user's attack",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 0,
+		"priority": 0,
+		"sp": 3,
+		"targets": "self",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Earthquake": {
+		"moveName": "earthquake",
+		"description": "A powerful earthquake hits all foes but also allies.",
+		"type": "",
+		"baseAttack": 100,
+		"accuracy": 1,
+		"priority": 0,
+		"sp": 20,
+		"targets": "all",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"FireFormula": {
+		"moveName": "Fire formula",
+		"description": "A blast of fire toward one enemy.",
+		"type": "fire",
+		"baseAttack": 100,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 10,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "burn",
+		"effectRate": 2,
+		"recoil": 0
+	},
+	"FlameGrater": {
+		"moveName": "flame grater",
+		"description": "elemental sword attack to an enemy. Attacks first.",
+		"type": "fire",
+		"baseAttack": 55,
+		"accuracy": 1,
+		"priority": 0,
+		"sp": 7,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Fly": {
+		"moveName": "Fly",
+		"description": "Flies in the air and attacks one turn later",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 80,
+		"accuracy": 9,
+		"priority": 0,
+		"sp": 10,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Fly2": {
+		"moveName": "Fly",
+		"description": "Flies in the air and attacks one turn later",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 80,
+		"accuracy": 9,
+		"priority": 0,
+		"sp": 10,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Fortify": {
+		"moveName": "Fortify",
+		"description": "",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 0,
+		"priority": 0,
+		"sp": 4,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"FranticRush": {
+		"moveName": "Frantic rush",
+		"description": "Ends the battle is successful.",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 85,
+		"priority": 0,
+		"sp": 0,
+		"targets": "party",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"FrigidSlash": {
+		"moveName": "frigid slash",
+		"description": "elemental sword attack to an enemy. Attacks first",
+		"type": "ice",
+		"baseAttack": 55,
+		"accuracy": 9,
+		"priority": 1,
+		"sp": 7,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"GhastlyClaw": {
+		"moveName": "ghastly claw",
+		"description": "Summons a ghastly claw to attack an enemy",
+		"type": "dark",
+		"baseAttack": 30,
+		"accuracy": 1,
+		"priority": 0,
+		"sp": 5,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"HammerArm": {
+		"moveName": "hammer arm",
+		"description": "A powerful brute force against an enemy. The user takes recoil.",
+		"type": "",
+		"baseAttack": 100,
+		"accuracy": 1,
+		"priority": 0,
+		"sp": 10,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 2
+	},
+	"HeadBash": {
+		"accuracy": 85,
+		"baseAttack": 140,
+		"contact": true,
+		"description": "Powerful bash against enemy. Badly hurts the user.",
+		"effectRate": 0,
+		"moveName": "Head bash",
+		"priority": 0,
+		"recoil": 3,
+		"secondaryEffect": "",
+		"sp": 18,
+		"targets": "foe",
+		"type": ""
+	},
+	"Heal": {
+		"moveName": "Heal",
+		"description": "Removes any status effects.",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 0,
+		"priority": 0,
+		"sp": 8,
+		"targets": "party",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Howl": {
+		"moveName": "Howl",
+		"description": "Lowers the enemy's attack",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 3,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"IceShard": {
+		"moveName": "Ice shard",
+		"description": "Shoots a wave of icecicles to enemies",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 70,
+		"accuracy": 7,
+		"priority": 0,
+		"sp": 15,
+		"targets": "all",
+		"contact": false,
+		"secondaryEffect": "frozen",
+		"effectRate": 2,
+		"recoil": 0
+	},
+	"LegionThrust": {
+		"moveName": "legion thrust",
+		"description": "A physical attack toward all enemies",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 50,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 15,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Lick": {
+		"moveName": "Lick",
+		"description": "",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 1,
+		"accuracy": 1,
+		"priority": 2,
+		"sp": 0,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"LightningStab": {
+		"moveName": "lightning stab",
+		"description": "elemental sword attack to an enemy. Attacks first.",
+		"type": "volt",
+		"baseAttack": 55,
+		"accuracy": 9,
+		"priority": 1,
+		"sp": 7,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"LuringWhisper": {
+		"moveName": "Luring whisper",
+		"description": "Luring whisper toward all enemies that ma induce sleep",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 3,
+		"priority": 0,
+		"sp": 0,
+		"targets": "enemies",
+		"contact": false,
+		"secondaryEffect": "sleep",
+		"effectRate": 3,
+		"recoil": 0
+	},
+	"Minimize": {
+		"moveName": "Minimize",
+		"description": "Increases evasiveness",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 0,
+		"priority": 0,
+		"sp": 8,
+		"targets": "self",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"NightmareCurse": {
+		"moveName": "Nightmare curse",
+		"description": "absorbs energy of sleeping enemies",
+		"type": "dark",
+		"baseAttack": 90,
+		"accuracy": 90,
+		"priority": 0,
+		"sp": 6,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"ParticleBeam": {
+		"moveName": "particle beam",
+		"description": "A beam of charged particles to an enemy",
+		"battleText": "",
+		"type": "volt",
+		"baseAttack": 120,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 15,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"PoisonShot": {
+		"moveName": "poison shot",
+		"description": "A jab that may poison the enemy",
+		"type": "",
+		"baseAttack": 100,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 15,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "poison",
+		"effectRate": 15,
+		"recoil": 0
+	},
+	"PoisonSting": {
+		"moveName": "Poison sting",
+		"description": "",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 80,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 12,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "poison",
+		"effectRate": 2,
+		"recoil": 0
+	},
+	"QuickAttack": {
+		"moveName": "Quick attack",
+		"description": "An attack that attacks first.",
+		"type": "",
+		"baseAttack": 30,
+		"accuracy": 95,
+		"priority": 1,
+		"sp": 2,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"RagingEdge": {
+		"moveName": "raging edsge",
+		"description": "A powerful slash attack",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 100,
+		"accuracy": 9,
+		"priority": 0,
+		"sp": 12,
+		"targets": "all",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"RegularAttack": {
+		"moveName": "Attack",
+		"description": "A regular attack",
+		"type": "",
+		"baseAttack": 50,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 0,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0
+	},
+	"Rest": {
+		"accuracy": 0,
+		"baseAttack": 0,
+		"battleText": "",
+		"contact": false,
+		"description": "",
+		"effectRate": 0,
+		"moveName": "Rest",
+		"priority": 0,
+		"recoil": 0,
+		"secondaryEffect": "",
+		"sp": 5,
+		"targets": "self",
+		"type": ""
+	},
+	"Revive_Move": {
+		"moveName": "Revive",
+		"description": "revives an ally",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 0,
+		"priority": 0,
+		"sp": 20,
+		"targets": "ally",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"RockBlast": {
+		"moveName": "Rock blast",
+		"description": "",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 90,
+		"accuracy": 100,
+		"priority": 0,
+		"sp": 10,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Scratch": {
+		"moveName": "Scratch",
+		"description": "",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 40,
+		"accuracy": 1,
+		"priority": 0,
+		"sp": 3,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"ShieldRush": {
+		"moveName": "Shield Rush",
+		"description": "An attack toward all enemies. May reduce the defence of the target.",
+		"type": "",
+		"baseAttack": 50,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 10,
+		"targets": "enemies",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Shoot": {
+		"moveName": "Shoot",
+		"description": "You shoot someone with an AR-15. Your aim is really bad though.",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 500,
+		"accuracy": 4,
+		"priority": 0,
+		"sp": 50,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Slash": {
+		"moveName": "Slash",
+		"description": "",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 30,
+		"accuracy": 1,
+		"priority": 0,
+		"sp": 3,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Stab": {
+		"moveName": "Stab",
+		"description": "",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 50,
+		"accuracy": 85,
+		"priority": 0,
+		"sp": 5,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Swift": {
+		"moveName": "Swift",
+		"description": "This attack will never miss",
+		"type": "",
+		"baseAttack": 50,
+		"accuracy": 0,
+		"priority": 0,
+		"sp": 8,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"TailWhip": {
+		"moveName": "Tail whip",
+		"description": "the user slams his tail into his foe.",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 120,
+		"accuracy": 65,
+		"priority": 0,
+		"sp": 8,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"TakeDown": {
+		"moveName": "Take down",
+		"description": "A strong attack but takes recoil",
+		"type": "",
+		"baseAttack": 120,
+		"accuracy": 1,
+		"priority": 0,
+		"sp": 2,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 25
+	},
+	"ThorFormula": {
+		"moveName": "Thor formula",
+		"description": "A volt attack at all enemies",
+		"type": "volt",
+		"baseAttack": 70,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 25,
+		"targets": "all foes",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"Toxin": {
+		"moveName": "toxin",
+		"description": "May poison the enemy",
+		"type": "",
+		"baseAttack": 0,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 8,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "poison",
+		"effectRate": 95,
+		"recoil": 0
+	},
+	"VoltFormula": {
+		"moveName": "volt formula",
+		"description": "A volt attack at one enemy",
+		"type": "volt",
+		"baseAttack": 70,
+		"accuracy": 95,
+		"priority": 0,
+		"sp": 8,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "paralize",
+		"effectRate": 1,
+		"recoil": 0
+	},
+	"WaterCannon": {
+		"moveName": "Water cannon",
+		"description": "Rest the next turn.",
+		"battleText": "",
+		"type": "water",
+		"baseAttack": 150,
+		"accuracy": 9,
+		"priority": 0,
+		"sp": 12,
+		"targets": "foe",
+		"contact": false,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	},
+	"WingSlash": {
+		"moveName": "Winglash",
+		"description": "",
+		"battleText": "",
+		"type": "",
+		"baseAttack": 60,
+		"accuracy": 9,
+		"priority": 0,
+		"sp": 8,
+		"targets": "foe",
+		"contact": true,
+		"secondaryEffect": "",
+		"effectRate": 0,
+		"recoil": 0
+	}
 }
